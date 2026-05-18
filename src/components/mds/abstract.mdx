@@ -1,0 +1,9 @@
+# Abstract
+
+Text-conditioned human motion in-betweening leverages keyframes for spatio-temporal control, with text providing high-level semantic guidance for the transitions.
+However, existing methods are unable to establish a coherent alignment between textual semantics and the spatio-temporal constraints provided by keyframes, often resulting in insufficiently constrained motions with unintended behavior.
+Moreover, they struggle with precise spatial control, often generating motions that deviate from keyframe constraints.
+To address these issues, we propose a multi-level diffusion framework that integrates textual semantics with implicit cues from keyframe sequences to modulate global motion dynamics, while leveraging individual keyframes to guide local transitions around them.
+During inference, to ensure strict keyframe adherence, we propose a novel trajectory refinement strategy that adjusts the root positions of the generated motion, followed by diffusion imputation to refine the poses of the generated keyframes.
+Additionally, our framework enables semantics-preserving motion editing, allowing for plausible modifications while retaining the original motion semantics.
+Extensive experiments demonstrate that our method generates high-quality motions that strictly satisfy keyframe constraints while achieving precise semantic alignment.
