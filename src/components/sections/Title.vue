@@ -145,8 +145,9 @@ const buttons = [
   //   component: Files,
   // },
   {
-    disabled: true,
+    disabled: false,
     name: "Poster",
+    link: "./figures/Poster.png",
     component: Picture,
   },
   {
@@ -230,7 +231,13 @@ const buttons = [
     <el-row justify="center" style="margin-bottom: 20px;">
       <el-col :span="20">
         <el-row justify="center">
-          <a :href=button.link v-for="button in buttons">
+          <a
+            v-for="button in buttons"
+            :key="button.name"
+            :href="button.link || null"
+            :target="button.link ? '_blank' : null"
+            :rel="button.link ? 'noopener noreferrer' : null"
+          >
             <el-button class="guidance-button" size="default" :color="btn_color" :disabled="button.disabled" round>
               <el-icon :size="18">
                 <component :is="button.component" />

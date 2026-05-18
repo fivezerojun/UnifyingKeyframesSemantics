@@ -22,6 +22,72 @@ const examples = [
       },
     ],
   },
+  {
+    prompt: "A person picks up a large object, carries it overhead, and walks to the target",
+    videos: [
+      {
+        method: "OmniControl",
+        src: "./videos/comparison/pickup/omnicontrol.mp4",
+      },
+      {
+        method: "CondMDI",
+        src: "./videos/comparison/pickup/condmdi.mp4",
+      },
+      {
+        method: "MaskControl",
+        src: "./videos/comparison/pickup/maskcontrol.mp4",
+      },
+      {
+        method: "Ours",
+        src: "./videos/comparison/pickup/ours.mp4",
+        highlight: true,
+      },
+    ],
+  },
+  {
+    prompt: "A person, while running quickly, bends down and picks something up",
+    videos: [
+      {
+        method: "OmniControl",
+        src: "./videos/comparison/run_pick/omnicontrol.mp4",
+      },
+      {
+        method: "CondMDI",
+        src: "./videos/comparison/run_pick/condmdi.mp4",
+      },
+      {
+        method: "MaskControl",
+        src: "./videos/comparison/run_pick/maskcontrol.mp4",
+      },
+      {
+        method: "Ours",
+        src: "./videos/comparison/run_pick/ours.mp4",
+        highlight: true,
+      },
+    ],
+  },
+  {
+    prompt: "A person moves forward to the left side and picks something up and does a full turn back",
+    videos: [
+      {
+        method: "OmniControl",
+        src: "./videos/comparison/sparse_joint/omnicontrol.mp4",
+      },
+      {
+        method: "CondMDI",
+        src: "./videos/comparison/sparse_joint/condmdi.mp4",
+      },
+      {
+        method: "MaskControl",
+        src: "./videos/comparison/sparse_joint/maskcontrol.mp4",
+      },
+      {
+        method: "Ours",
+        src: "./videos/comparison/sparse_joint/ours.mp4",
+        highlight: true,
+      },
+    ],
+  },
 ]
 </script>
 
