@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/UnifyingKeyframesSemantics',
+  base:'/UnifyingKeyframesSemantics/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
