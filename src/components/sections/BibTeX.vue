@@ -3,11 +3,13 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@InProceedings{Wu_2026_CVPR,",
+        "    author    = {Wu, Linjun and Yu, Jiejia and Jin, Leyang and Wang, He and Zheng, Bowen and Yang, Xu and Jiang, Hao and Xia, Fei and Ling, Fei and Deng, Jun and Jin, Xiaogang},",
+        "    title     = {Unifying Precise Keyframes and Semantic Control via Multi-level Diffusion},",
+        "    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},",
+        "    month     = {June},",
+        "    year      = {2026},",
+        "    pages     = {23473-23483}",
         "}",
       ],
     }

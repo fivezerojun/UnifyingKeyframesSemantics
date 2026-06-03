@@ -134,8 +134,9 @@ const emphases = [
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper",
+    link: "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_Unifying_Precise_Keyframes_and_Semantic_Control_via_Multi-level_Diffusion_CVPR_2026_paper.pdf",
     component: Document,
   },
   // {

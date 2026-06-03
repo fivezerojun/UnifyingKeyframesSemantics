@@ -35,6 +35,6 @@ export default {
   <Table/>
   <QualitativeResults/>
   <Limitation/>
-  <!-- <BibTeX/> -->
+  <BibTeX/>
   <!-- <Comment/> -->
 </template>
